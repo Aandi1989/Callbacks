@@ -69,6 +69,7 @@ class BindExamles extends React.Component {
 
         <button
           onClick={showCurrentMounthFunction}
+          // не будет работать
         >
           Check THIS
         </button>
@@ -83,6 +84,7 @@ class BindExamles extends React.Component {
           ChangeCurrentMonth
         </button>
         <button onClick={showCurrentMounthHandler}>showCurrentMounthHandler</button>
+        {/*  так работает */}
       </div>
     )
   }
